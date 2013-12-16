@@ -6,7 +6,7 @@ on_location do
 end
 
 on_subscribe do
-  "Please share your location information"
+  "您好！谢谢关注公交来了！我们致力于通过公交信息的互动来方便大家的生活。我们的宗旨是“我为人人，人人为我”。您可以在这里分享您了解的公交信息，也可以在这里获取别人分享的信息。请发送0获取相关的操作帮助信息"
 end
 
 on_text do
