@@ -10,8 +10,8 @@ on_subscribe do
 end
 
 on_text do
-
-  #"hello world #{params[:Latitude]}"
-  [{:title=>"", :description=>"", :picturl=>"", :url=>""},{:title=>"", :description=>"", :picturl=>"", :url=>""}]
+  params[:content] =~ /([^\d]*?)([\dkK]+)/
+  city_name = $1
+  bus_no = $2
 end
 
